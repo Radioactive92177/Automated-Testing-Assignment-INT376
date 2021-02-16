@@ -3,9 +3,10 @@
 ### INT 376
 ---
 
-| Name | **MG Raju**|
+| Fields | Credentials |
 | --- | --- |
-|Reg ID | **11811924**|
-|Course Code | **INT376**|
-|Submitted to | **Sudhanshu Prakash Tiwari**|
+| Name | **MG Raju**|
+| Reg ID | **11811924**|
+| Course Code | **INT376**|
+| Submitted to | **Sudhanshu Prakash Tiwari**|
 
