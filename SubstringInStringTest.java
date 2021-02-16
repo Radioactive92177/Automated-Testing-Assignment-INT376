@@ -16,32 +16,54 @@ public class SubstringInStringTest {
 //    Pass test cases
     @Test
     public void check1(){
-        assertTrue(SubstringInString.isInTheString("Raj", "My name is Raj"), "Raj is in 'My name is Raj'");
+        assertTrue(SubstringInString.isInTheString("Raj", "My name is Raj"), "Substring is present in the string");
     }
 
     @Test
     public void check2(){
-        assertTrue(SubstringInString.isInTheString("Atharva", "My name is Atharva"), "Atharva is in 'My name is Atharva'");
+        assertTrue(SubstringInString.isInTheString("wood", "Bollywood"), "Substring is present in the string");
     }
 
     @Test
-    public void check3(){
+    public void check3() {
+        assertTrue(SubstringInString.isInTheString("wood", "Hollywood"), "Substring is present in the string");
+    }
+    
+    @Test
+    public void check4() {
+        assertTrue(SubstringInString.isInTheString("Hal", "Hallelujah"),
+                "Substring is present in the string");
+    }
+
+    @Test
+    public void check5() {
         assertTrue(SubstringInString.isInTheString("Harsha", "My name is Harsha"), "Harsha is in 'My name is Harsha'");
     }
 
 //    Fail Test cases
     @Test
-    public void check4(){
-        assertFalse(SubstringInString.isInTheString("Raj", "My name is Atharva"), "Raj is not in 'My name is Atharva'");
+    public void check6(){
+        assertFalse(SubstringInString.isInTheString("Soccer", "Cricket is very popular"), "Substring is not present");
     }
 
     @Test
-    public void check5(){
-        assertFalse(SubstringInString.isInTheString("Atharva", "My name is Harsha"), "Atharva is not in 'My name is Harsha'");
+    public void check7(){
+        assertFalse(SubstringInString.isInTheString("pi", "PIRATE"), "Substring is not present");
     }
     
     @Test
-    public void check6(){
-        assertFalse(SubstringInString.isInTheString("Harsha", "My name is Raj"), "Harsha is not in 'My name is Raj'");
+    public void check8() {
+        assertFalse(SubstringInString.isInTheString("call", "Call of Duty"), "Substring is not present");
+    }
+    
+    @Test
+    public void check9() {
+        assertFalse(SubstringInString.isInTheString("Atharva", "My name is Raj"),
+                "Substring is not present");
+    }
+
+    @Test
+    public void check10() {
+        assertFalse(SubstringInString.isInTheString("Drr", "Dr.Rajesh"), "Substring is not present");
     }
 }
