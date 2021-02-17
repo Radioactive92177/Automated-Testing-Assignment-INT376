@@ -1,12 +1,12 @@
 # Automated Testing Assignment
 
-### INT 376
+### CSE 376
 ---
 
 | Fields | Credentials |
 | --- | --- |
 | Name | **MG Raju**|
 | Reg ID | **11811924**|
-| Course Code | **INT376**|
+| Course Code | **CSE376**|
 | Submitted to | **Sudhanshu Prakash Tiwari**|
 
