@@ -4,6 +4,7 @@ package armstrongNumberProblem;
 public class ArmsStrongNumberChallenge {
 	int num;
 	
+	// This is a demo line
 	ArmsStrongNumberChallenge(int num) {
 		this.num = num;
 	}
